@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "qualitymayhem:heaven_piercer_blade"
+    },
+    "&": {
+      "item": "qualitymayhem:heaven_piercer_handle"
+    },
+    "@": {
+      "item": "qualitymayhem:heaven_piercer_cross_guard"
+    }
+  },
+  "pattern": [
+    "  #",
+    " @ ",
+    "&  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:heaven_piercer"
+  }
+}

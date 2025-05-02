@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "qualitymayhem:infernal_ingot"
+    },
+    "&": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "@": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "pattern": [
+    " &#",
+    " @&",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:gilded_claymore_handle"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "qualitymayhem:block/self_lit_redstone_lamp"
+    },
+    "clicked=true": {
+      "model": "qualitymayhem:block/self_lit_redstone_lamp_on"
+    }
+  }
+}

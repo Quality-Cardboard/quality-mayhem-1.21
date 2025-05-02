@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "qualitymayhem:topaz"
+    },
+    "$": {
+      "item": "qualitymayhem:athium"
+    },
+    "%": {
+      "item": "qualitymayhem:infernal_ingot"
+    },
+    "&": {
+      "item": "minecraft:nether_star"
+    },
+    "+": {
+      "item": "qualitymayhem:occult_katana"
+    },
+    "=": {
+      "item": "qualitymayhem:blazing_sabre"
+    },
+    "@": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "pattern": [
+    "#%$",
+    "@+%",
+    "=&#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:ethereal_flare"
+  }
+}

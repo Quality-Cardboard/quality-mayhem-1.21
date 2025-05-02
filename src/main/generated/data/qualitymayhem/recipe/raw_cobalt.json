@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "qualitymayhem:raw_cobalt_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "qualitymayhem:raw_cobalt"
+  }
+}

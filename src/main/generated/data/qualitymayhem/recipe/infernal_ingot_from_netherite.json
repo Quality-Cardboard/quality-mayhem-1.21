@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:lava_bucket"
+    },
+    "$": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "@": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "@#@",
+    "$$$",
+    "@#@"
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:infernal_ingot"
+  }
+}

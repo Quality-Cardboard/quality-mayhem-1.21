@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "qualitymayhem:raw_cobalt"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  $",
+    " @@",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:mangled_dagger"
+  }
+}

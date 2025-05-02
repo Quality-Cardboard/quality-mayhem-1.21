@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_infernal_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "qualitymayhem:infernal_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:infernal_ingot_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_infernal_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:infernal_ingot_block"
+    ]
+  }
+}

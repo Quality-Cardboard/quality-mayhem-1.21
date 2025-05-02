@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_heaven_piercer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "qualitymayhem:heaven_piercer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "qualitymayhem:heaven_piercer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_heaven_piercer"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "qualitymayhem:heaven_piercer"
+    ]
+  }
+}

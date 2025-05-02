@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "qualitymayhem:infernal_ingot_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "qualitymayhem:infernal_ingot"
+  }
+}

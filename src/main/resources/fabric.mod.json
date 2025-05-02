@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "qualitymayhem",
+	"version": "${version}",
+	"name": "Quality Mayhem",
+	"description": "The chaos of many different ideas into one",
+	"authors": [
+		"QualityCard / Quality Cardboard"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/qualitymayhem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.qualitycard.qualitymayhem.QualityMayhem"
+		],
+		"fabric-datagen": [
+			"net.qualitycard.qualitymayhem.QualityMayhemDataGenerator"
+		],
+		"client": [
+			"net.qualitycard.qualitymayhem.QualityMayhemClient"
+		]
+	},
+	"mixins": [
+		"qualitymayhem.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

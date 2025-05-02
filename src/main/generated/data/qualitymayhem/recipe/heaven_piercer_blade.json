@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    },
+    "&": {
+      "item": "qualitymayhem:infernal_ingot"
+    },
+    "@": {
+      "item": "qualitymayhem:blood_of_the_gods"
+    }
+  },
+  "pattern": [
+    " &#",
+    "&@&",
+    "#& "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:heaven_piercer_blade"
+  }
+}

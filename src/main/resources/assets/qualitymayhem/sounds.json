@@ -1,0 +1,22 @@
+{
+  "heaven_piercer_attack": {
+    "subtitle": "sounds.qualitymayhem.heaven_piercer_attack",
+    "sounds": [
+      "qualitymayhem:heaven_piercer_attack"
+    ]
+  },
+  "gilded_claymore_attack": {
+    "subtitle": "sounds.qualitymayhem.gilded_claymore_attack",
+    "sounds": [
+      "qualitymayhem:gilded_claymore_attack"
+    ]
+  },
+  "rick_roll": {
+    "sounds": [
+      {
+        "name": "qualitymayhem:rick_roll",
+        "stream": true
+      }
+    ]
+  }
+}

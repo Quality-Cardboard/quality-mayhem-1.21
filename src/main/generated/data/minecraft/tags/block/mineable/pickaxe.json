@@ -1,0 +1,21 @@
+{
+  "values": [
+    "qualitymayhem:cobalt_block",
+    "qualitymayhem:raw_cobalt_block",
+    "qualitymayhem:cobalt_ore",
+    "qualitymayhem:deepslate_cobalt_ore",
+    "qualitymayhem:topaz_ore",
+    "qualitymayhem:deepslate_topaz_ore",
+    "qualitymayhem:cobalt_stairs",
+    "qualitymayhem:cobalt_slab",
+    "qualitymayhem:cobalt_button",
+    "qualitymayhem:cobalt_pressure_plate",
+    "qualitymayhem:cobalt_fence",
+    "qualitymayhem:cobalt_fence_gate",
+    "qualitymayhem:cobalt_wall",
+    "qualitymayhem:cobalt_door",
+    "qualitymayhem:cobalt_trapdoor",
+    "qualitymayhem:infernal_ingot_block",
+    "qualitymayhem:transmutator_block"
+  ]
+}

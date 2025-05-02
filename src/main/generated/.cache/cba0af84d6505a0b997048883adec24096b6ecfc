@@ -1,0 +1,9 @@
+// 1.21	2025-05-02T22:47:12.901336	Quality Mayhem/Tags for minecraft:block
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data/qualitymayhem/tags/block/needs_cobalt_tool.json
+1d92779a0b987da44e2c465e4a3eab2281b1eeb2 data/minecraft/tags/block/walls.json
+c518ce34ce8c480b0c7ef50ffb206c1a0244751a data/minecraft/tags/block/dragon_immune.json
+f3c945d4eb6a8636be2885902676b33b3dcdc171 data/minecraft/tags/block/needs_iron_tool.json
+04a95c2e27084f92626fac873ea5f783354fca76 data/minecraft/tags/block/fence_gates.json
+c50f704a068bbb851afc51684b2db33a4d349601 data/minecraft/tags/block/needs_diamond_tool.json
+fa27048d3200fd686257a41d19f052e3862c504d data/minecraft/tags/block/fences.json
+3af7f1549213e0b854986e6f2bd691172a735e89 data/minecraft/tags/block/mineable/pickaxe.json

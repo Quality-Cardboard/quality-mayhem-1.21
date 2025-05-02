@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_occult_katana": {
+      "conditions": {
+        "items": [
+          {
+            "items": "qualitymayhem:occult_katana"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "qualitymayhem:ethereal_flare"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_occult_katana"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "qualitymayhem:ethereal_flare"
+    ]
+  }
+}

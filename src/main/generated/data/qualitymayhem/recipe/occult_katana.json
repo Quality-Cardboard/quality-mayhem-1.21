@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "qualitymayhem:cobalt_block"
+    },
+    "$": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "%": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "@": {
+      "item": "qualitymayhem:lunar_soaked_dirk"
+    }
+  },
+  "pattern": [
+    " #$",
+    "%@#",
+    " % "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:occult_katana"
+  }
+}

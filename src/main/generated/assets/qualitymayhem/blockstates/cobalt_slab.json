@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "qualitymayhem:block/cobalt_slab"
+    },
+    "type=double": {
+      "model": "qualitymayhem:block/cobalt_block"
+    },
+    "type=top": {
+      "model": "qualitymayhem:block/cobalt_slab_top"
+    }
+  }
+}

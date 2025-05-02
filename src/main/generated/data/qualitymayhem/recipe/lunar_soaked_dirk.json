@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "qualitymayhem:topaz"
+    },
+    "%": {
+      "item": "minecraft:iron_ingot"
+    },
+    "@": {
+      "item": "qualitymayhem:mangled_dagger"
+    }
+  },
+  "pattern": [
+    "  $",
+    "%@ ",
+    "#% "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:lunar_soaked_dirk"
+  }
+}

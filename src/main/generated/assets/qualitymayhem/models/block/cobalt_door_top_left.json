@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "qualitymayhem:block/cobalt_door_bottom",
+    "top": "qualitymayhem:block/cobalt_door_top"
+  }
+}

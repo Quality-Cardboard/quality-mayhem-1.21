@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "qualitymayhem:block/cobalt_block"
+  }
+}

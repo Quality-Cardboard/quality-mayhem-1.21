@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_top",
+  "textures": {
+    "texture": "qualitymayhem:block/cobalt_trapdoor"
+  }
+}

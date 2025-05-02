@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "qualitymayhem:gilded_claymore_cross_guard"
+    },
+    "&": {
+      "item": "qualitymayhem:gilded_claymore_handle"
+    },
+    "@": {
+      "item": "qualitymayhem:gilded_claymore_blade"
+    }
+  },
+  "pattern": [
+    "  @",
+    " # ",
+    "&  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "qualitymayhem:gilded_claymore"
+  }
+}

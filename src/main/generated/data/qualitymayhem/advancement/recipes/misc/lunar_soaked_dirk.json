@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangled_dagger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "qualitymayhem:mangled_dagger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "qualitymayhem:lunar_soaked_dirk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mangled_dagger"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "qualitymayhem:lunar_soaked_dirk"
+    ]
+  }
+}

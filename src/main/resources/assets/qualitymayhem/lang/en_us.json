@@ -1,0 +1,121 @@
+{
+  "item.qualitymayhem.infernal_ingot": "Infernal Ingot",
+  "item.qualitymayhem.cobalt": "Cobalt",
+  "item.qualitymayhem.raw_cobalt": "Raw Cobalt",
+  "item.qualitymayhem.topaz": "Topaz",
+  "item.qualitymayhem.athium": "Athium",
+  "item.qualitymayhem.blood_of_the_gods": "Blood of the Gods",
+  "item.qualitymayhem.heart_of_the_nether": "Heart of the Nether",
+  "item.qualitymayhem.heaven_piercer_handle": "Heaven Piercer Handle",
+  "item.qualitymayhem.heaven_piercer_cross_guard": "Heaven Piercer Cross Guard",
+  "item.qualitymayhem.heaven_piercer_blade": "Heaven Piercer Blade",
+  "item.qualitymayhem.gilded_claymore_handle": "Gilded Claymore Handle",
+  "item.qualitymayhem.gilded_claymore_cross_guard": "Gilded Claymore Cross Guard",
+  "item.qualitymayhem.gilded_claymore_blade": "Gilded Claymore Blade",
+
+  "item.qualitymayhem.chisel": "Chisel",
+
+  "item.qualitymayhem.rice": "Rice",
+  "item.qualitymayhem.egg_fried_rice": "Egg Fried Rice",
+  "item.qualitymayhem.apple_pie": "Apple Pie",
+  "item.qualitymayhem.flavoured_rocks": "Flavoured Rocks",
+  "item.qualitymayhem.cooked_beef_sandwich": "Steak Sandwich",
+  "item.qualitymayhem.chips": "Chips",
+  "item.qualitymayhem.apple_juice": "Apple Juice",
+  "item.qualitymayhem.alcohol": "Funny Apple Juice",
+  "item.qualitymayhem.soda": "Glass of Soda",
+
+  "item.qualitymayhem.heat_core": "Heat Core",
+
+  "item.qualitymayhem.scutter_bug_spawn_egg": "Scutter Bug Spawn Egg",
+
+  "entity.qualitymayhem.scutter_bug": "Scutter Bug",
+  "entity.qualitymayhem.atomic_blast": "Atomic Blast",
+
+  "item.qualitymayhem.rick_roll_music_disc": "Rick Roll Music Disc",
+  "item.qualitymayhem.rick_roll_music_disc.desc": "Rick Astley - Never Gonna Give You Up",
+
+  "painting.qualitymayhem.landscapes.title": "Landscapes",
+  "painting.qualitymayhem.landscapes.author": "QualityCard",
+  "painting.qualitymayhem.solemn_grottoes.title": "Solemn Grottoes",
+  "painting.qualitymayhem.solemn_grottoes.author": "JoiningAlt",
+
+
+
+  "block.qualitymayhem.infernal_ingot_block": "Block of Infernal Ingot",
+
+  "block.qualitymayhem.cobalt_ore": "Cobalt Ore",
+  "block.qualitymayhem.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.qualitymayhem.topaz_ore": "Topaz Ore",
+  "block.qualitymayhem.deepslate_topaz_ore": "Deepslate Topaz Ore",
+
+  "block.qualitymayhem.dusk_block": "Block of Dusk",
+
+  "block.qualitymayhem.raw_cobalt_block": "Block of Raw Cobalt",
+  "block.qualitymayhem.cobalt_block": "Block of Cobalt",
+
+  "block.qualitymayhem.cobalt_stairs": "Cobalt Stairs",
+  "block.qualitymayhem.cobalt_slab": "Cobalt Slab",
+  "block.qualitymayhem.cobalt_button": "Cobalt Button",
+  "block.qualitymayhem.cobalt_pressure_plate": "Cobalt Pressure Plate",
+  "block.qualitymayhem.cobalt_fence": "Cobalt Fence",
+  "block.qualitymayhem.cobalt_fence_gate": "Cobalt Fence Gate",
+  "block.qualitymayhem.cobalt_wall": "Cobalt Wall",
+  "block.qualitymayhem.cobalt_door": "Cobalt Door",
+  "block.qualitymayhem.cobalt_trapdoor": "Cobalt Trapdoor",
+
+  "block.qualitymayhem.self_lit_redstone_lamp": "Self Lit Redstone Lamp",
+
+  "block.qualitymayhem.transmutator_block": "Transmutator",
+
+
+  "item.qualitymayhem.cobalt_sword": "Cobalt Sword",
+  "item.qualitymayhem.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.qualitymayhem.cobalt_shovel": "Cobalt Shovel",
+  "item.qualitymayhem.cobalt_axe": "Cobalt Axe",
+  "item.qualitymayhem.cobalt_hoe": "Cobalt Hoe",
+  "item.qualitymayhem.cobalt_hammer": "Cobalt Hammer",
+
+  "item.qualitymayhem.cobalt_helmet": "Cobalt Helmet",
+  "item.qualitymayhem.cobalt_chestplate": "Cobalt Chestplate",
+  "item.qualitymayhem.cobalt_leggings": "Cobalt Leggings",
+  "item.qualitymayhem.cobalt_boots": "Cobalt Boots",
+
+  "item.qualitymayhem.cobalt_horse_armor": "Cobalt Horse Armor",
+
+  "item.qualitymayhem.heaven_piercer": "Heaven Piercer",
+  "item.qualitymayhem.gilded_claymore": "Gilded Claymore",
+  "item.qualitymayhem.blazing_sabre": "Blazing Sabre",
+  "item.qualitymayhem.mangled_dagger": "Mangled Dagger",
+  "item.qualitymayhem.lunar_soaked_dirk": "Lunar Soaked Dirk",
+  "item.qualitymayhem.occult_katana": "Occult Katana",
+  "item.qualitymayhem.ethereal_flare": "Ethereal Flare",
+
+  "item.qualitymayhem.atomic_blast": "Tome of Cataclysm",
+
+  "effect.qualitymayhem.catastrophe": "Catastrophe",
+  "item.minecraft.potion.effect.catastrophe_potion": "Catastrophe Potion",
+  "item.minecraft.splash_potion.effect.catastrophe_potion": "Catastrophe Splash Potion",
+  "item.minecraft.lingering_potion.effect.catastrophe_potion": "Catastrophe Lingering Potion",
+
+
+
+
+  "itemgroup.qualitymayhem.quality_mayhem_items": "Quality Mayhem Items",
+  "itemgroup.qualitymayhem.quality_mayhem_blocks": "Quality Mayhem Blocks",
+
+
+
+  "tooltip.qualitymayhem.heat_core": "A powerful fuel source",
+
+  "tooltip.qualitymayhem.transmutator_block.tooltip": "Very §9Magic§r Block",
+  "tooltip.qualitymayhem.transmutator_block.tooltip.2": "Very §7Magic§r Block",
+  "tooltip.qualitymayhem.heaven_piercer": "A weapon that can bring down skies and gods",
+  "tooltip.qualitymayhem.gilded_claymore": "A blade capable of ripping through the earth",
+
+  "sounds.qualitymayhem.heaven_piercer_attack": "Heaven Piercer Slices",
+  "sounds.qualitymayhem.gilded_claymore_attack": "Gilded Claymore Slashes",
+
+  "tooltip.qualitymayhem.chisel.shift_down": "This item chisels blocks into Bricks",
+  "tooltip.qualitymayhem.chisel": "Press Shift for more Info"
+}

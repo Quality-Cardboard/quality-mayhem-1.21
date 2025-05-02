@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "qualitymayhem:block/cobalt_pressure_plate"
+    },
+    "powered=true": {
+      "model": "qualitymayhem:block/cobalt_pressure_plate_down"
+    }
+  }
+}
