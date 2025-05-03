@@ -1,4 +1,4 @@
-// 1.21	2025-05-02T22:47:12.902301	Quality Mayhem/Recipes
+// 1.21	2025-05-04T09:55:51.110046	Quality Mayhem/Recipes
 6f66160e116fa1583ce5adc406ea49a17c85999d data/qualitymayhem/advancement/recipes/misc/cobalt_from_blasting_deepslate_cobalt_ore.json
 c6dac81eb32a1a84ef12f38d9a65cfe32189f9c3 data/qualitymayhem/advancement/recipes/misc/cobalt_sword.json
 57152f8f3789e309f26eb87d47a39b19460ff0b7 data/qualitymayhem/recipe/apple_juice.json
@@ -8,6 +8,7 @@ bcf43ee35598b793d472e53907c24a70ec7a78c2 data/qualitymayhem/recipe/egg_fried_ric
 b41431067aac8c86cf12686e582fb2d7100f2f38 data/qualitymayhem/advancement/recipes/misc/mangled_dagger.json
 8c660faf9c400e27de2f0d9b67a9e1f3c0cbaab1 data/qualitymayhem/recipe/heaven_piercer.json
 0ee058323f3f4de96bbe7a8b5b8d94740280d817 data/qualitymayhem/advancement/recipes/food/flavoured_rocks.json
+465b03b23f27f6b0192385e8a852e92f759dd5d8 data/qualitymayhem/recipe/golden_apple.json
 35abc42a4682a4eb8d31d996060e68aaa0170427 data/qualitymayhem/advancement/recipes/tools/cobalt_axe_facing_left.json
 5346f2e0a17df99f6c66acd71388ff5a60726868 data/qualitymayhem/advancement/recipes/redstone/cobalt_fence_gate.json
 6d07c8a2c42946d224e09128bbe4f464e80f0fda data/qualitymayhem/recipe/heat_core.json
@@ -36,6 +37,7 @@ e6eaf0c871013becfb9cc2e7a8bc8e48c3517689 data/qualitymayhem/advancement/recipes/
 d81d627d36d25058e9844827d8b7e79624295a7e data/qualitymayhem/advancement/recipes/food/apple_pie.json
 5ed3a738128f127349f64865337f7c5460b941fe data/qualitymayhem/advancement/recipes/food/chips.json
 62e56bcbce3fc835c09f6897e8f483a914df93b1 data/qualitymayhem/advancement/recipes/misc/lunar_soaked_dirk.json
+5bca5833752d3d2c3143b5a4b4a5fed8e547508b data/qualitymayhem/recipe/trident.json
 e039c8fcda3c92f995ed35ebda892e42fe637a8c data/qualitymayhem/advancement/recipes/building_blocks/infernal_ingot.json
 06c501f4791b068d24387d664fb4b719f693cfb9 data/qualitymayhem/recipe/cooked_beef_sandwich.json
 9bc9636d7cca22fdd355efea219e5274dba35ac4 data/qualitymayhem/recipe/cobalt_hoe_facing_left.json
@@ -75,6 +77,7 @@ a3d51883b8dc1b2ce4b9b6443d4f9c68de9e2358 data/qualitymayhem/advancement/recipes/
 e702ff3e1adba85d23eef18c907193591d7f7dcd data/qualitymayhem/advancement/recipes/tools/cobalt_shovel.json
 2d72f9b99fef1dbb993d324d018f63cfdcb39832 data/qualitymayhem/recipe/rice.json
 96485e5e5264e31978fec19d8ba4edcd14bc7315 data/qualitymayhem/recipe/infernal_ingot_block_from_infernal_ingot.json
+acd8cbe3ccb37942df75a7cff9da4290556c7500 data/qualitymayhem/advancement/recipes/combat/trident.json
 6002677cf5a37b7926294434ceb1dcbdc1417326 data/qualitymayhem/advancement/recipes/misc/blazing_sabre.json
 5d06f448b94723403592c43254e2dc475145dc7f data/qualitymayhem/recipe/heaven_piercer_handle.json
 eaab8930edad6f4c3be54c926561fe37b555a950 data/qualitymayhem/recipe/cobalt_block.json
@@ -105,6 +108,7 @@ b712143b2f5e74bcc096ad6fec38a254c11bc90c data/qualitymayhem/advancement/recipes/
 b2fb0460f082db0450ff47b733ed7efba5a537b3 data/qualitymayhem/advancement/recipes/food/rice.json
 51f992fd311880d04b357819ac0e80037f83ae9c data/qualitymayhem/recipe/cobalt_button.json
 8cbb40e295d7ce0511af31422c8644398a70f665 data/qualitymayhem/advancement/recipes/decorations/cobalt_fence.json
+c5eb72c23a7f729f911aefc616defb9dabbf38ca data/qualitymayhem/advancement/recipes/food/golden_apple.json
 67982be7d6ca555fdd961a4a5bbc697e8b6ff1ed data/qualitymayhem/advancement/recipes/misc/heat_core.json
 c8839e80fa966b1b4f46beedc10763ab553de2c4 data/qualitymayhem/advancement/recipes/misc/occult_katana.json
 81535a824ed7b30b322f50c19e47735ff63bcf0f data/qualitymayhem/advancement/recipes/misc/gilded_claymore_cross_guard.json

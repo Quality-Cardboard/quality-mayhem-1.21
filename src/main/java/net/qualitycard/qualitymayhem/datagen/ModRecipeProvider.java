@@ -377,5 +377,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('+', ModItems.OCCULT_KATANA)
                 .criterion(hasItem(ModItems.OCCULT_KATANA), conditionsFromItem(ModItems.OCCULT_KATANA))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, Items.GOLDEN_APPLE, 1)
+                .pattern("###")
+                .pattern("#@#")
+                .pattern("###")
+                .input('#', Items.GOLD_NUGGET)
+                .input('@', Items.APPLE)
+                .criterion(hasItem(Items.GOLD_NUGGET), conditionsFromItem(Items.GOLD_NUGGET))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.TRIDENT, 1)
+                .pattern(" ##")
+                .pattern(" @#")
+                .pattern("@  ")
+                .input('#', Items.PRISMARINE_SHARD)
+                .input('@', Items.IRON_INGOT)
+                .criterion(hasItem(Items.PRISMARINE_SHARD), conditionsFromItem(Items.PRISMARINE_SHARD))
+                .offerTo(exporter);
     }
 }

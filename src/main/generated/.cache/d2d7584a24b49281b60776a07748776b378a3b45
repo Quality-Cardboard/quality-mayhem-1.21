@@ -1,4 +1,4 @@
-// 1.21	2025-05-02T22:47:12.900383	Quality Mayhem/Block Loot Tables
+// 1.21	2025-05-04T09:55:51.107864	Quality Mayhem/Block Loot Tables
 daf917325135cf552e11134ed00928b091e3b1e9 data/qualitymayhem/loot_table/blocks/self_lit_redstone_lamp.json
 387910492a2f56e641807fde41f536a1eb1bed3f data/qualitymayhem/loot_table/blocks/cobalt_trapdoor.json
 3ddea02dcba8f419feee0136b5b6c1e4325bed62 data/qualitymayhem/loot_table/blocks/cobalt_stairs.json
@@ -10,8 +10,8 @@ cb4f49d5377511d37a32b9e764e2e3a62cba3737 data/qualitymayhem/loot_table/blocks/de
 f0880ba9af4ec76fd680dcb36e6bf5a0d11e6a4b data/qualitymayhem/loot_table/blocks/cobalt_fence.json
 a0cb86fd208f4601cc68960cd78bfead1a8452fc data/qualitymayhem/loot_table/blocks/transmutator_block.json
 0eb95a8cff031b7f49689f224497bf566c784c40 data/qualitymayhem/loot_table/blocks/cobalt_block.json
-83fc45ea87a21583dee9bcd81e6bbb7b5474fd39 data/qualitymayhem/loot_table/blocks/cobalt_fence_gate.json
 712c82e3bcc6534fe64b2da0ef60599048595770 data/qualitymayhem/loot_table/blocks/cobalt_pressure_plate.json
+83fc45ea87a21583dee9bcd81e6bbb7b5474fd39 data/qualitymayhem/loot_table/blocks/cobalt_fence_gate.json
 bbbbd54a5d6a582de19b811807756b0c00079282 data/qualitymayhem/loot_table/blocks/deepslate_cobalt_ore.json
 55d7cb7591db4e068346f524486aedcc1e221203 data/qualitymayhem/loot_table/blocks/cobalt_door.json
 9932ab5077956a669906b3c5dccfd9fa2c436881 data/qualitymayhem/loot_table/blocks/cobalt_button.json
