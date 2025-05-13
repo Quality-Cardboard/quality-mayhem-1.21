@@ -13,6 +13,10 @@ public class ModPotions {
 
     public static final RegistryEntry<Potion> CATASTROPHE_POTION = registerPotion("catastrophe_potion",
             new Potion(new StatusEffectInstance(ModEffects.CATASTROPHE, 1200, 0)));
+    public static final RegistryEntry<Potion> SMOULDERING_POTION = registerPotion("smouldering_potion",
+            new Potion(new StatusEffectInstance(ModEffects.SMOULDERING, 1200, 0)));
+    public static final RegistryEntry<Potion> BLIGHTED_POTION = registerPotion("blighted_potion",
+            new Potion(new StatusEffectInstance(ModEffects.BLIGHTED, 1200, 0)));
 
     private static RegistryEntry<Potion> registerPotion(String name, Potion potion) {
         return Registry.registerReference(Registries.POTION, Identifier.of(QualityMayhem.MOD_ID, name), potion);

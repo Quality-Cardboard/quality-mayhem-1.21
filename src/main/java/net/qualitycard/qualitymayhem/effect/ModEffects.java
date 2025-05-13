@@ -13,10 +13,32 @@ import net.qualitycard.qualitymayhem.QualityMayhem;
 
 public class ModEffects {
     public static final RegistryEntry<StatusEffect> CATASTROPHE = registerStatusEffect("catastrophe",
-            new CatastropheEffect(StatusEffectCategory.NEUTRAL, 0xFF0000)
+            new CatastropheEffect(StatusEffectCategory.NEUTRAL, 0x000000)
                     .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_DAMAGE,
                             Identifier.of(QualityMayhem.MOD_ID, "catastrophe"), 0.25f,
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE));
+
+    public static final RegistryEntry<StatusEffect> SMOULDERING = registerStatusEffect("smouldering",
+            new SmoulderingEffect(StatusEffectCategory.HARMFUL, 0xFF0000)
+
+                    .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
+                            Identifier.of(QualityMayhem.MOD_ID, "smouldering"), -0.03f,
+                            EntityAttributeModifier.Operation.ADD_VALUE)
+
+                    .addAttributeModifier(EntityAttributes.GENERIC_ARMOR,
+                            Identifier.of(QualityMayhem.MOD_ID, "smouldering"), -4.0f,
+                            EntityAttributeModifier.Operation.ADD_VALUE));
+
+    public static final RegistryEntry<StatusEffect> BLIGHTED = registerStatusEffect("blighted",
+            new BlightedEffect(StatusEffectCategory.HARMFUL, 0xFF000)
+                    .addAttributeModifier(EntityAttributes.GENERIC_MAX_HEALTH,
+                            Identifier.of(QualityMayhem.MOD_ID, "blighted"), -4f,
+                            EntityAttributeModifier.Operation.ADD_VALUE)
+
+                    .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_DAMAGE,
+                            Identifier.of(QualityMayhem.MOD_ID, "smouldering"), -2.0f,
+                            EntityAttributeModifier.Operation.ADD_VALUE));
+
 
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect) {
         return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(QualityMayhem.MOD_ID, name), statusEffect);

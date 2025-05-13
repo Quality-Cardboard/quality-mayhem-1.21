@@ -79,7 +79,7 @@ public class ModItems {
             new SwordItem(ToolMaterials.DIAMOND, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
     public static final Item ETHEREAL_FLARE = registerItem("ethereal_flare",
-            new SwordItem(ToolMaterials.NETHERITE, new Item.Settings()
+            new EtherealFlareItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 3, -2.4f)).fireproof().rarity(Rarity.RARE)));
 
     public static final Item ATOMIC_BLAST = registerItem("atomic_blast",

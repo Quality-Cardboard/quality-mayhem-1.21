@@ -67,6 +67,7 @@
   "block.qualitymayhem.self_lit_redstone_lamp": "Self Lit Redstone Lamp",
 
   "block.qualitymayhem.transmutator_block": "Transmutator",
+  "block.qualitymayhem.test_portal_block": "Test Portal Block",
 
 
   "item.qualitymayhem.cobalt_sword": "Cobalt Sword",
@@ -93,10 +94,26 @@
 
   "item.qualitymayhem.atomic_blast": "Tome of Cataclysm",
 
+
   "effect.qualitymayhem.catastrophe": "Catastrophe",
   "item.minecraft.potion.effect.catastrophe_potion": "Catastrophe Potion",
   "item.minecraft.splash_potion.effect.catastrophe_potion": "Catastrophe Splash Potion",
   "item.minecraft.lingering_potion.effect.catastrophe_potion": "Catastrophe Lingering Potion",
+
+  "effect.qualitymayhem.smouldering": "Smouldering",
+  "item.minecraft.potion.effect.smouldering_potion": "Smouldering Potion",
+  "item.minecraft.splash_potion.effect.smouldering_potion": "Smouldering Splash Potion",
+  "item.minecraft.lingering_potion.effect.smouldering_potion": "Smouldering Lingering Potion",
+
+  "effect.qualitymayhem.blighted": "Blighted",
+  "item.minecraft.potion.effect.blighted_potion": "Blighted Potion",
+  "item.minecraft.splash_potion.effect.blighted_potion": "Blighted Splash Potion",
+  "item.minecraft.lingering_potion.effect.blighted_potion": "Blighted Lingering Potion",
+
+  "effect.qualitymayhem.soul_fire": "Soul Fire",
+  "item.minecraft.potion.effect.soul_fire_potion": "Soul Fire Potion",
+  "item.minecraft.splash_potion.effect.soul_fire_potion": "Soul Fire Splash Potion",
+  "item.minecraft.lingering_potion.effect.soul_fire_potion": "Soul Fire Lingering Potion",
 
 
 
@@ -110,7 +127,7 @@
 
   "tooltip.qualitymayhem.transmutator_block.tooltip": "Very §9Magic§r Block",
   "tooltip.qualitymayhem.transmutator_block.tooltip.2": "Very §7Magic§r Block",
-  "tooltip.qualitymayhem.heaven_piercer": "A weapon that can bring down skies and gods",
+  "tooltip.qualitymayhem.heaven_piercer": "A weapon that can bring down the skies and the gods",
   "tooltip.qualitymayhem.gilded_claymore": "A blade capable of ripping through the earth",
 
   "sounds.qualitymayhem.heaven_piercer_attack": "Heaven Piercer Slices",

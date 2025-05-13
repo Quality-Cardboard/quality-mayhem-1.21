@@ -44,7 +44,9 @@ public class ModModelProvider extends FabricModelProvider {
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(SelfLitRedstoneLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.INFERNAL_INGOT_BLOCK);
+
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TRANSMUTATOR_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TEST_PORTAL_BLOCK);
 
     }
 

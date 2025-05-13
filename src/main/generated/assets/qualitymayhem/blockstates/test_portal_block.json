@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "qualitymayhem:block/test_portal_block"
+    }
+  }
+}

@@ -2,10 +2,12 @@
 	"required": true,
 	"package": "net.qualitycard.qualitymayhem.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
+	"mixins": [],
 	"injectors": {
 		"defaultRequire": 1
-	}
+	},
+	"client": [
+		"ExampleMixin"
+	],
+	"server": []
 }

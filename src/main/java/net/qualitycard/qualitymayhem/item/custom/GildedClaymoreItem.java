@@ -9,7 +9,14 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+import net.minecraft.world.World;
+import net.minecraft.world.dimension.DimensionType;
+import net.minecraft.world.dimension.DimensionTypes;
+import net.qualitycard.qualitymayhem.QualityMayhem;
+import net.qualitycard.qualitymayhem.effect.ModEffects;
 
+import java.awt.*;
 import java.util.List;
 
 public class GildedClaymoreItem extends SwordItem {
@@ -18,8 +25,13 @@ public class GildedClaymoreItem extends SwordItem {
     @Override
     public void postDamageEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         stack.damage(1, attacker, EquipmentSlot.MAINHAND);
-        target.setOnFireFor(20f);
         target.disablesShield();
+
+        Identifier world = target.getEntityWorld().getRegistryKey().getValue();
+        QualityMayhem.LOGGER.info(String.valueOf(world));
+        if (world.toString().equals("qualitymayhem:infernal_descent")) {
+            target.addStatusEffect(new StatusEffectInstance(ModEffects.SMOULDERING, 50, 1));
+        }
 
     }
 

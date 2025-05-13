@@ -49,5 +49,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COBALT_LEGGINGS)
                 .add(ModItems.COBALT_BOOTS);
 
+        getOrCreateTagBuilder(ItemTags.ARMOR_ENCHANTABLE)
+                .add(ModItems.COBALT_HELMET)
+                .add(ModItems.COBALT_CHESTPLATE)
+                .add(ModItems.COBALT_LEGGINGS)
+                .add(ModItems.COBALT_BOOTS);
+
     }
 }

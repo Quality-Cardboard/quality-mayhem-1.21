@@ -69,7 +69,6 @@ public class QualityMayhem implements ModInitializer {
 	@Override
 	// When Initialized this method / function will run
 	public void onInitialize() {
-		DisplayEntity.BlockDisplayEntity box;
 		// Registering to make sure the java class is working
 
 		// Registering World Generation

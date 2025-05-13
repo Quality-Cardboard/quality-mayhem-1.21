@@ -18,11 +18,11 @@ import java.util.function.Supplier;
 public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> COBALT_ARMOR_MATERIAl = registerArmorMaterial("cobalt",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-                map.put(ArmorItem.Type.BOOTS, 3);
-                map.put(ArmorItem.Type.LEGGINGS, 6);
-                map.put(ArmorItem.Type.CHESTPLATE, 8);
-                map.put(ArmorItem.Type.HELMET, 3);
-                map.put(ArmorItem.Type.BODY, 11);
+                map.put(ArmorItem.Type.BOOTS, 2);
+                map.put(ArmorItem.Type.LEGGINGS, 5);
+                map.put(ArmorItem.Type.CHESTPLATE, 6);
+                map.put(ArmorItem.Type.HELMET, 2);
+                map.put(ArmorItem.Type.BODY, 5);
             }), 20, SoundEvents. ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(ModItems.COBALT)
                     , List.of(new ArmorMaterial.Layer(Identifier.of(QualityMayhem.MOD_ID, "cobalt"))), 3.0f, 0.1f));
 

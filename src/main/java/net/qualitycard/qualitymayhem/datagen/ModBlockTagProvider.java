@@ -37,7 +37,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TRANSMUTATOR_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.DRAGON_IMMUNE)
-                .add(ModBlocks.DUSK_BLOCK);
+                .add(ModBlocks.DUSK_BLOCK)
+                .add(ModBlocks.TEST_PORTAL_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.COBALT_BLOCK)

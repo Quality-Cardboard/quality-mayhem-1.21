@@ -107,6 +107,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SELF_LIT_REDSTONE_LAMP);
 
                         entries.add(ModBlocks.TRANSMUTATOR_BLOCK);
+                        entries.add(ModBlocks.TEST_PORTAL_BLOCK);
 
                     })
                     .build()

@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.qualitycard.qualitymayhem.QualityMayhem;
 import net.qualitycard.qualitymayhem.block.custom.SelfLitRedstoneLampBlock;
+import net.qualitycard.qualitymayhem.block.custom.TestPortalBlock;
 import net.qualitycard.qualitymayhem.block.custom.TransmutatorBlock;
 import net.qualitycard.qualitymayhem.sound.ModSounds;
 
@@ -85,6 +86,10 @@ public class ModBlocks {
             new TransmutatorBlock(AbstractBlock.Settings.create().strength(2f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block TEST_PORTAL_BLOCK = registerBlock("test_portal_block",
+            new TestPortalBlock(AbstractBlock.Settings.create().strength(9999f).hardness(9999f)
+                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
 
 
 
@@ -125,6 +130,7 @@ public class ModBlocks {
         // Adds the Mod Items to an Item Group (Functional Blocks)
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(TRANSMUTATOR_BLOCK);
+            entries.add(TEST_PORTAL_BLOCK);
         });
     }
 }

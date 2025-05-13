@@ -1,4 +1,4 @@
-// 1.21	2025-05-04T19:34:11.225273	Quality Mayhem/Recipes
+// 1.21	2025-05-13T21:14:50.842983	Quality Mayhem/Recipes
 6f66160e116fa1583ce5adc406ea49a17c85999d data/qualitymayhem/advancement/recipes/misc/cobalt_from_blasting_deepslate_cobalt_ore.json
 c6dac81eb32a1a84ef12f38d9a65cfe32189f9c3 data/qualitymayhem/advancement/recipes/misc/cobalt_sword.json
 57152f8f3789e309f26eb87d47a39b19460ff0b7 data/qualitymayhem/recipe/apple_juice.json
@@ -88,7 +88,7 @@ e62b13baa4a16765e22d48b8fde4947073df7437 data/qualitymayhem/advancement/recipes/
 12206489b501b13ce4c6f7d3d02e9e9c304779d9 data/qualitymayhem/recipe/cobalt_hoe_facing_right.json
 d855e8abe15584e0739a080d1dbde0d838d423a0 data/qualitymayhem/advancement/recipes/food/cooked_beef_sandwich.json
 1b13f1871490ead1465ccca68b791280ac4787cf data/qualitymayhem/recipe/cobalt_wall.json
-2185dc659f159c38208fd2d833751c33e73d7772 data/qualitymayhem/recipe/ethereal_flare.json
+56bcc9a167a2d6c9cf115228bdecc905ffa662d1 data/qualitymayhem/recipe/ethereal_flare.json
 c808ad598e1f4d05d703945d8024e1f8439dd986 data/qualitymayhem/advancement/recipes/misc/cobalt_from_smelting_raw_cobalt.json
 bdb89f3af57b572596c587d6cb30edcb94507537 data/qualitymayhem/advancement/recipes/building_blocks/cobalt_slab.json
 16b2fe6024b8bb99a91e525327ca73f036b25ae3 data/qualitymayhem/advancement/recipes/misc/athium.json
@@ -116,4 +116,4 @@ d3fd8ddabbbcd7aed94648eac9a1dfb571bdadb3 data/qualitymayhem/recipe/cobalt_trapdo
 08714b97e9843cbe2d5c6f02dc4080774e5928a1 data/qualitymayhem/recipe/cobalt_from_blasting_raw_cobalt.json
 052509077be8fb72a611b0e26a3b23e445d12744 data/qualitymayhem/recipe/cobalt_from_blasting_deepslate_cobalt_ore.json
 2b97e7e5b6e057e94a8b090ffbfa652dcc56e02a data/qualitymayhem/advancement/recipes/combat/cobalt_pickaxe.json
-d59949d1010f351246aa016d7eb29503a62c9bac data/qualitymayhem/recipe/occult_katana.json
+cff108c4faf2b7e0ba6daf85b7bfe33d0b1a41c7 data/qualitymayhem/recipe/occult_katana.json

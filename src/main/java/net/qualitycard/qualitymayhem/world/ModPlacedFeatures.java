@@ -25,11 +25,11 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, COBALT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COBALT_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(12,
+                ModOrePlacement.modifiersWithCount(10,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))
                         ));
         register(context, TOPAZ_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOPAZ_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(10,
+                ModOrePlacement.modifiersWithCount(8,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))
                 ));
     }
