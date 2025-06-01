@@ -1,4 +1,4 @@
-package net.qualitycard.qualitymayhem.util;
+package net.qualitycard.qualitymayhem.event;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;

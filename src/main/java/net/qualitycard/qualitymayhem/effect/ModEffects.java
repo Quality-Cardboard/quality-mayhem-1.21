@@ -32,11 +32,11 @@ public class ModEffects {
     public static final RegistryEntry<StatusEffect> BLIGHTED = registerStatusEffect("blighted",
             new BlightedEffect(StatusEffectCategory.HARMFUL, 0xFF000)
                     .addAttributeModifier(EntityAttributes.GENERIC_MAX_HEALTH,
-                            Identifier.of(QualityMayhem.MOD_ID, "blighted"), -4f,
+                            Identifier.of(QualityMayhem.MOD_ID, "blighted"), -2f,
                             EntityAttributeModifier.Operation.ADD_VALUE)
 
                     .addAttributeModifier(EntityAttributes.GENERIC_ATTACK_DAMAGE,
-                            Identifier.of(QualityMayhem.MOD_ID, "smouldering"), -2.0f,
+                            Identifier.of(QualityMayhem.MOD_ID, "blighted"), -1.0f,
                             EntityAttributeModifier.Operation.ADD_VALUE));
 
 

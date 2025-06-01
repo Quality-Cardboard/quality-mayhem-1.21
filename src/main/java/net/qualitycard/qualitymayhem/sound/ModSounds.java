@@ -14,6 +14,8 @@ public class ModSounds {
 
     public static final SoundEvent HEAVEN_PIERCER_ATTACK = registerSoundEvent("heaven_piercer_attack");
     public static final SoundEvent GILDED_CLAYMORE_ATTACK = registerSoundEvent("gilded_claymore_attack");
+    public static final SoundEvent ATOMIC_BLAST_EXPLOSION = registerSoundEvent("atomic_blast_explosion");
+    public static final SoundEvent ATOMIC_BLAST_EXPLOSION_ = registerSoundEvent("atomic_blast_explosion_");
 
     public static final SoundEvent INFERNAL_INGOT_BLOCK_BREAK = registerSoundEvent("infernal_ingot_block_break");
     public static final SoundEvent INFERNAL_INGOT_BLOCK_STEP = registerSoundEvent("infernal_ingot_block_step");

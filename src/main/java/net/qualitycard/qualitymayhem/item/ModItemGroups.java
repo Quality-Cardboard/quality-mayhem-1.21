@@ -59,6 +59,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COBALT_HORSE_ARMOR);
 
+                        entries.add(ModItems.FALSE_SUN);
+
                         entries.add(ModItems.HEAVEN_PIERCER);
                         entries.add(ModItems.GILDED_CLAYMORE);
                         entries.add(ModItems.BLAZING_SABRE);

@@ -12,6 +12,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.Identifier;
+import net.qualitycard.qualitymayhem.QualityMayhem;
 
 import java.util.Random;
 
@@ -22,13 +23,9 @@ public class BlightedEffect extends StatusEffect {
 
     @Override
     public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
-        Random random = new Random();
-        int min = -1; // Minimum value (inclusive)
-        int max = 1;  // Maximum value (inclusive)
+        float x = -0.1f;
+        float z = -0.1f;
 
-        // Generate a random number for x and z tilt screen
-        int x = random.nextInt(max - min + 1) + min;
-        int z = random.nextInt(max - min + 1) + min;
         entity.tiltScreen(x,z);
 
         return true;

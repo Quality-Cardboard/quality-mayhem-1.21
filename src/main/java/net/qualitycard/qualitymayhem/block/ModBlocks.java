@@ -2,6 +2,7 @@ package net.qualitycard.qualitymayhem.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.fluid.FlowableFluid;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -23,7 +24,6 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS).sounds(ModSounds.INFERNAL_INGOT_BLOCK_SOUNDS)));
 
-
     public static final Block COBALT_ORE = registerBlock("cobalt_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()
@@ -36,12 +36,12 @@ public class ModBlocks {
     public static final Block TOPAZ_ORE = registerBlock("topaz_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()
-                            .sounds(BlockSoundGroup.NETHER_GOLD_ORE)));
+                            .sounds(BlockSoundGroup.STONE)));
 
     public static final Block DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()
-                            .sounds(BlockSoundGroup.NETHER_GOLD_ORE)));
+                            .sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block DUSK_BLOCK = registerBlock("dusk_block",
             new Block(AbstractBlock.Settings.create().strength(999f, 999f).sounds(BlockSoundGroup.HONEY)));
@@ -55,26 +55,26 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block COBALT_STAIRS = registerBlock("cobalt_stairs",
             new StairsBlock(ModBlocks.COBALT_BLOCK.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(2f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block COBALT_SLAB = registerBlock("cobalt_slab",
-            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block COBALT_BUTTON = registerBlock("cobalt_button",
-            new ButtonBlock(BlockSetType.COPPER, 3, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
+            new ButtonBlock(BlockSetType.COPPER, 3, AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision().sounds(BlockSoundGroup.METAL)));
     public static final Block COBALT_PRESSURE_PLATE = registerBlock("cobalt_pressure_plate",
-            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new PressurePlateBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block COBALT_FENCE = registerBlock("cobalt_fence",
-            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block COBALT_FENCE_GATE = registerBlock("cobalt_fence_gate",
-            new FenceGateBlock(WoodType.WARPED, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new FenceGateBlock(WoodType.WARPED, AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
     public static final Block COBALT_WALL = registerBlock("cobalt_wall",
-            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+            new WallBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block COBALT_DOOR = registerBlock("cobalt_door",
-            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+            new DoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque().sounds(BlockSoundGroup.METAL)));
     public static final Block COBALT_TRAPDOOR = registerBlock("cobalt_trapdoor",
-            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+            new TrapdoorBlock(BlockSetType.COPPER, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque().sounds(BlockSoundGroup.METAL)));
 
     public static final Block SELF_LIT_REDSTONE_LAMP = registerBlock("self_lit_redstone_lamp",
             new SelfLitRedstoneLampBlock(AbstractBlock.Settings.create()

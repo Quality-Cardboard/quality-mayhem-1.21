@@ -51,9 +51,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter ,Identifier.of(QualityMayhem.MOD_ID, "infernal_ingot_from_infernal_ingot_block"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.INFERNAL_INGOT, 1)
+                .pattern("@$@")
                 .pattern("@#@")
-                .pattern("$$$")
-                .pattern("@#@")
+                .pattern("@$@")
                 .input('#', Items.LAVA_BUCKET)
                 .input('@', Items.GOLD_BLOCK)
                 .input('$', Items.NETHERITE_INGOT)

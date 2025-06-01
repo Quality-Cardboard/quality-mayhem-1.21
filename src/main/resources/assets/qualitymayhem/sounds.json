@@ -11,6 +11,12 @@
       "qualitymayhem:gilded_claymore_attack"
     ]
   },
+  "atomic_blast_explosion": {
+    "subtitle": "sounds.qualitymayhem.atomic_blast_explosion",
+    "sounds": [
+      "qualitymayhem:atomic_blast_explosion"
+    ]
+  },
   "rick_roll": {
     "sounds": [
       {

@@ -1,6 +1,8 @@
 package net.qualitycard.qualitymayhem.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -23,6 +25,7 @@ public class ModItems {
     public static final Item RAW_COBALT = registerItem("raw_cobalt", new Item(new Item.Settings()));
     public static final Item TOPAZ = registerItem("topaz", new Item(new Item.Settings()));
     public static final Item ATHIUM = registerItem("athium", new Item(new Item.Settings()));
+    public static final Item CONQUERORS_ALLOY = registerItem("conquerors_alloy", new Item(new Item.Settings()));
     public static final Item BLOOD_OF_THE_GODS = registerItem("blood_of_the_gods", new Item(new Item.Settings().fireproof()));
     public static final Item HEART_OF_THE_NETHER = registerItem("heart_of_the_nether", new Item(new Item.Settings().fireproof()));
     public static final Item HEAVEN_PIERCER_HANDLE = registerItem("heaven_piercer_handle", new Item(new Item.Settings().fireproof()));
@@ -60,10 +63,12 @@ public class ModItems {
 
     public static final Item HEAVEN_PIERCER = registerItem("heaven_piercer",
             new HeavenPiercerItem(ToolMaterials.NETHERITE, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 5 ,-2.2f)).fireproof().rarity(Rarity.EPIC)));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 5 ,-2.4f)).fireproof().rarity(Rarity.EPIC)));
     public static final Item GILDED_CLAYMORE = registerItem("gilded_claymore",
             new GildedClaymoreItem(ToolMaterials.NETHERITE, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 5 ,-2.2f)).fireproof().rarity(Rarity.EPIC)));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 5 ,-2.4f)).fireproof().rarity(Rarity.EPIC)));
+    public static final Item FALSE_SUN = registerItem("false_sun",
+            new FalseSunItem(new Item.Settings().maxDamage(500)));
 
 
     public static final Item BLAZING_SABRE = registerItem("blazing_sabre",
@@ -97,6 +102,19 @@ public class ModItems {
     public static final Item COBALT_BOOTS = registerItem("cobalt_boots",
             new ArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAl, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
+
+    public static final Item CONQUERORS_MASK = registerItem("conquerors_mask",
+            new ModArmorItem(ModArmorMaterials.CONQUERORS_ARMOR_MATERIAl, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(66))));
+    public static final Item CONQUERORS_LEGGINGS = registerItem("conquerors_leggings",
+            new ArmorItem(ModArmorMaterials.CONQUERORS_ARMOR_MATERIAl, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(66))));
+    public static final Item CONQUERORS_CHESTPLATE = registerItem("conquerors_chestplate",
+            new ArmorItem(ModArmorMaterials.CONQUERORS_ARMOR_MATERIAl, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(66))));
+    public static final Item CONQUERORS_BOOTS = registerItem("conquerors_boots",
+            new ArmorItem(ModArmorMaterials.CONQUERORS_ARMOR_MATERIAl, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(66))));
 
     public static final Item COBALT_HORSE_ARMOR = registerItem("cobalt_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.COBALT_ARMOR_MATERIAl, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
@@ -179,6 +197,8 @@ public class ModItems {
             entries.add(COBALT_BOOTS);
             entries.add(COBALT_HORSE_ARMOR);
 
+            entries.add(FALSE_SUN);
+
             entries.add(COBALT_SWORD);
             entries.add(HEAVEN_PIERCER);
             entries.add(GILDED_CLAYMORE);
@@ -205,10 +225,20 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> {
             entries.add(SCUTTER_BUG_SPAWN_EGG);
+            entries.add(ATHIUM);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(RICK_ROLL_MUSIC_DISC);
+            entries.add(ATHIUM);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
+            entries.add(CONQUERORS_MASK);
+            entries.add(CONQUERORS_CHESTPLATE);
+            entries.add(CONQUERORS_LEGGINGS);
+            entries.add(CONQUERORS_BOOTS);
+            entries.add(CONQUERORS_ALLOY);
         });
 
     }

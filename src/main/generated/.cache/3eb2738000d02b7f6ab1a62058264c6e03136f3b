@@ -1,8 +1,8 @@
-// 1.21	2025-05-13T21:14:50.842983	Quality Mayhem/Recipes
+// 1.21	2025-05-18T10:54:48.276691	Quality Mayhem/Recipes
 6f66160e116fa1583ce5adc406ea49a17c85999d data/qualitymayhem/advancement/recipes/misc/cobalt_from_blasting_deepslate_cobalt_ore.json
 c6dac81eb32a1a84ef12f38d9a65cfe32189f9c3 data/qualitymayhem/advancement/recipes/misc/cobalt_sword.json
 57152f8f3789e309f26eb87d47a39b19460ff0b7 data/qualitymayhem/recipe/apple_juice.json
-2c3fdb36b17ffd22545282845a3dc8027a9a442e data/qualitymayhem/recipe/infernal_ingot_from_netherite.json
+ef9ba210d3171da61725d7f5d362989829bc3b65 data/qualitymayhem/recipe/infernal_ingot_from_netherite.json
 a1454b09d2774561c6ad194af63a39fe3c7c8345 data/qualitymayhem/recipe/soda.json
 bcf43ee35598b793d472e53907c24a70ec7a78c2 data/qualitymayhem/recipe/egg_fried_rice.json
 b41431067aac8c86cf12686e582fb2d7100f2f38 data/qualitymayhem/advancement/recipes/misc/mangled_dagger.json

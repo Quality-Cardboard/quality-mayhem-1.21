@@ -31,6 +31,10 @@ public class GildedClaymoreItem extends SwordItem {
         QualityMayhem.LOGGER.info(String.valueOf(world));
         if (world.toString().equals("qualitymayhem:infernal_descent")) {
             target.addStatusEffect(new StatusEffectInstance(ModEffects.SMOULDERING, 50, 1));
+            attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 50, 1));
+        } else {
+            attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 50, 1));
+            target.setOnFireFor(15f);
         }
 
     }

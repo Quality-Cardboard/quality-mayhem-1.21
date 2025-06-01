@@ -24,6 +24,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.IRON_INGOT)
                 .add(Items.COAL);
 
+        getOrCreateTagBuilder(ModTags.Items.FALSE_SUN_REPAIR_ITEMS)
+                .add(ModItems.CONQUERORS_ALLOY);
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.COBALT_SWORD)
                 .add(ModItems.HEAVEN_PIERCER)
@@ -47,13 +50,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COBALT_HELMET)
                 .add(ModItems.COBALT_CHESTPLATE)
                 .add(ModItems.COBALT_LEGGINGS)
-                .add(ModItems.COBALT_BOOTS);
+                .add(ModItems.COBALT_BOOTS)
+
+                .add(ModItems.CONQUERORS_MASK)
+                .add(ModItems.CONQUERORS_CHESTPLATE)
+                .add(ModItems.CONQUERORS_LEGGINGS)
+                .add(ModItems.CONQUERORS_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.ARMOR_ENCHANTABLE)
                 .add(ModItems.COBALT_HELMET)
                 .add(ModItems.COBALT_CHESTPLATE)
                 .add(ModItems.COBALT_LEGGINGS)
-                .add(ModItems.COBALT_BOOTS);
+                .add(ModItems.COBALT_BOOTS)
+
+                .add(ModItems.CONQUERORS_MASK)
+                .add(ModItems.CONQUERORS_CHESTPLATE)
+                .add(ModItems.CONQUERORS_LEGGINGS)
+                .add(ModItems.CONQUERORS_BOOTS);
 
     }
 }

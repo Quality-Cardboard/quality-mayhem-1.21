@@ -1,9 +1,9 @@
-// 1.21	2025-05-13T21:14:50.842514	Quality Mayhem/Tags for minecraft:item
+// 1.21	2025-05-18T10:54:48.276245	Quality Mayhem/Tags for minecraft:item
 64369eaf1ee3fff74985e552607b99e05cfc5de1 data/minecraft/tags/item/hoes.json
-8dee2241da657ecdd1963547af2d3517bd60b6a8 data/minecraft/tags/item/enchantable/armor.json
+45bbdb5aa00f2dbbd98f406d326f76abe3de622f data/minecraft/tags/item/enchantable/armor.json
 41f208a737a9789950d352f603de8c11715c8795 data/qualitymayhem/tags/item/transformable_items.json
 4122f4e173f781dd8ce18f72f496e71fc7adf118 data/minecraft/tags/item/swords.json
-8dee2241da657ecdd1963547af2d3517bd60b6a8 data/minecraft/tags/item/trimmable_armor.json
+45bbdb5aa00f2dbbd98f406d326f76abe3de622f data/minecraft/tags/item/trimmable_armor.json
 0071355e8cedea02414221ee3268fce207e1d2b0 data/minecraft/tags/item/shovels.json
 18c1a80b15e02bf89ea8210af3c415a86c4ba7b1 data/minecraft/tags/item/axes.json
 627616d910767b2142817d8a865172dce3d08642 data/minecraft/tags/item/pickaxes.json

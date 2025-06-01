@@ -4,6 +4,7 @@
   "item.qualitymayhem.raw_cobalt": "Raw Cobalt",
   "item.qualitymayhem.topaz": "Topaz",
   "item.qualitymayhem.athium": "Athium",
+  "item.qualitymayhem.conquerors_alloy": "Conqueror's Alloy",
   "item.qualitymayhem.blood_of_the_gods": "Blood of the Gods",
   "item.qualitymayhem.heart_of_the_nether": "Heart of the Nether",
   "item.qualitymayhem.heaven_piercer_handle": "Heaven Piercer Handle",
@@ -82,6 +83,12 @@
   "item.qualitymayhem.cobalt_leggings": "Cobalt Leggings",
   "item.qualitymayhem.cobalt_boots": "Cobalt Boots",
 
+  "item.qualitymayhem.conquerors_mask": "Conqueror's Mask",
+  "item.qualitymayhem.conquerors_chestplate": "Conqueror's Chestplate",
+  "item.qualitymayhem.conquerors_leggings": "Conqueror's Leggings",
+  "item.qualitymayhem.conquerors_boots": "Conqueror's Boots",
+  "item.qualitymayhem.false_sun": "False Sun",
+
   "item.qualitymayhem.cobalt_horse_armor": "Cobalt Horse Armor",
 
   "item.qualitymayhem.heaven_piercer": "Heaven Piercer",
@@ -132,7 +139,14 @@
 
   "sounds.qualitymayhem.heaven_piercer_attack": "Heaven Piercer Slices",
   "sounds.qualitymayhem.gilded_claymore_attack": "Gilded Claymore Slashes",
+  "sounds.qualitymayhem.atomic_blast_explosion": "Atomic Blast Explodes",
 
   "tooltip.qualitymayhem.chisel.shift_down": "This item chisels blocks into Bricks",
-  "tooltip.qualitymayhem.chisel": "Press Shift for more Info"
+  "tooltip.qualitymayhem.chisel": "Press Shift for more Info",
+
+  "death.attack.atomic_blast_explosion": "%1$s\'s atoms were ripped apart",
+  "death.attack.atomic_blast_explosion.player": "%1$s\'s atoms were ripped apart whilst fighting %2$s",
+
+  "death.attack.light": "%1$s got eviscerated by light",
+  "death.attack.light.player": "%1$s got eviscerated by light %2$s"
 }

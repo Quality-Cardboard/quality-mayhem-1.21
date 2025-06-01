@@ -1,6 +1,7 @@
 package net.qualitycard.qualitymayhem.item;
 
 import net.minecraft.component.type.FoodComponent;
+import net.minecraft.component.type.FoodComponents;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
@@ -10,9 +11,9 @@ import net.qualitycard.qualitymayhem.item.custom.AppleJuiceItem;
 public class ModFoodComponents {
 
     // Foods
-    public static final FoodComponent RICE = new FoodComponent.Builder().nutrition(6).saturationModifier(0.15f)
+    public static final FoodComponent RICE = new FoodComponent.Builder().nutrition(6).saturationModifier(0.4f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 200), 0.15f).usingConvertsTo(Items.BOWL).snack().build();
-    public static final FoodComponent EGG_FRIED_RICE = new FoodComponent.Builder().nutrition(7).saturationModifier(0.20f)
+    public static final FoodComponent EGG_FRIED_RICE = new FoodComponent.Builder().nutrition(7).saturationModifier(1.2f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 200), 0.15f).usingConvertsTo(Items.BOWL).snack().build();
     public static final FoodComponent APPLE_PIE = new FoodComponent.Builder().nutrition(8).saturationModifier(0.25f).build();
     public static final FoodComponent FLAVOURED_ROCKS = new FoodComponent.Builder().nutrition(1).saturationModifier(0.10f)
@@ -36,7 +37,7 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 60, 1), 0.10f)
             .snack().alwaysEdible().build();
 
-    public static final FoodComponent COOKED_BEEF_SANDWICH = new FoodComponent.Builder().nutrition(10).saturationModifier(0.20f).build();
+    public static final FoodComponent COOKED_BEEF_SANDWICH = new FoodComponent.Builder().nutrition(10).saturationModifier(0.80f).build();
     public static final FoodComponent CHIPS = new FoodComponent.Builder().nutrition(7).saturationModifier(0.60f).snack().usingConvertsTo(Items.PAPER).build();
 
     // Drinks

@@ -27,6 +27,8 @@ public class HeavenPiercerItem extends SwordItem {
         QualityMayhem.LOGGER.info(String.valueOf(world));
         if (world.toString().equals("qualitymayhem:valour")) {
             target.addStatusEffect(new StatusEffectInstance(ModEffects.BLIGHTED, 50, 1));
+        } else {
+            target.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 50, 1));
         }
 
     }

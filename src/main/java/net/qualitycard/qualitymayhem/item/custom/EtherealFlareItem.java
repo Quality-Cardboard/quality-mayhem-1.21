@@ -19,14 +19,19 @@ public class EtherealFlareItem extends SwordItem {
     @Override
     public void postDamageEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         stack.damage(1, attacker, EquipmentSlot.MAINHAND);
+        target.setOnFireFor(10f);
+
         Identifier world = target.getEntityWorld().getRegistryKey().getValue();
         QualityMayhem.LOGGER.info(String.valueOf(world));
         if (world.toString().equals("minecraft:overworld")) {
+            attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 50, 1));
             attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 50, 1));
         } else if (world.toString().equals("minecraft:the_nether")) {
-            target.setOnFireFor(5f);
+            attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 50, 1));
+            attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 50, 1));
         } else if (world.toString().equals("minecraft:the_end")) {
             target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 50, 1));
+            target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 50, 1));
         }
 
     }

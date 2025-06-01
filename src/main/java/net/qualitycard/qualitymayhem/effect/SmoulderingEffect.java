@@ -24,7 +24,7 @@ public class SmoulderingEffect extends StatusEffect {
         if (entity.getHealth() > 1.0F) {
             entity.damage(entity.getDamageSources().onFire(), 0.25F);
         }
-        entity.setOnFireFor(0.5f);
+        entity.setOnFireFor(5f);
         return true;
     }
 
