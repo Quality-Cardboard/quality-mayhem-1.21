@@ -3,6 +3,7 @@ package net.qualitycard.qualitymayhem.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -68,7 +69,11 @@ public class ModItems {
             new GildedClaymoreItem(ToolMaterials.NETHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 5 ,-2.4f)).fireproof().rarity(Rarity.EPIC)));
     public static final Item FALSE_SUN = registerItem("false_sun",
-            new FalseSunItem(new Item.Settings().maxDamage(500)));
+            new FalseSunItem(new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.NETHERITE, 1 ,-2.4f)).fireproof().rarity(Rarity.EPIC)));
+    public static final Item DRAUPNIR = registerItem("draupnir",
+            new DraupnirItem(new Item.Settings()
+                    .attributeModifiers(TridentItem.createAttributeModifiers()).component(DataComponentTypes.TOOL, TridentItem.createToolComponent())));
 
 
     public static final Item BLAZING_SABRE = registerItem("blazing_sabre",
@@ -209,6 +214,12 @@ public class ModItems {
             entries.add(ETHEREAL_FLARE);
 
             entries.add(ATOMIC_BLAST);
+
+            entries.add(CONQUERORS_MASK);
+            entries.add(CONQUERORS_CHESTPLATE);
+            entries.add(CONQUERORS_LEGGINGS);
+            entries.add(CONQUERORS_BOOTS);
+            entries.add(CONQUERORS_ALLOY);
         });
 
 
@@ -231,14 +242,6 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> {
             entries.add(RICK_ROLL_MUSIC_DISC);
             entries.add(ATHIUM);
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
-            entries.add(CONQUERORS_MASK);
-            entries.add(CONQUERORS_CHESTPLATE);
-            entries.add(CONQUERORS_LEGGINGS);
-            entries.add(CONQUERORS_BOOTS);
-            entries.add(CONQUERORS_ALLOY);
         });
 
     }

@@ -19,10 +19,7 @@ import net.minecraft.util.math.ColorHelper;
 import net.minecraft.util.math.MathHelper;
 import net.qualitycard.qualitymayhem.block.ModBlocks;
 import net.qualitycard.qualitymayhem.entity.ModEntities;
-import net.qualitycard.qualitymayhem.entity.client.AtomicBlastProjectileModel;
-import net.qualitycard.qualitymayhem.entity.client.AtomicBlastProjectileRenderer;
-import net.qualitycard.qualitymayhem.entity.client.ScutterBugModel;
-import net.qualitycard.qualitymayhem.entity.client.ScutterBugRenderer;
+import net.qualitycard.qualitymayhem.entity.client.*;
 import net.qualitycard.qualitymayhem.item.custom.FalseSunItem;
 import net.qualitycard.qualitymayhem.particle.AtomicBlastExplosionParticle;
 import net.qualitycard.qualitymayhem.particle.LightParticle;
@@ -45,6 +42,9 @@ public class QualityMayhemClient implements ClientModInitializer {
 
         ParticleFactoryRegistry.getInstance().register(ModParticles.ATOMIC_BLAST_EXPLOSION_PARTICLE, AtomicBlastExplosionParticle.Factory::new);
         ParticleFactoryRegistry.getInstance().register(ModParticles.LIGHT_PARTICLE, LightParticle.Factory::new);
+
+        EntityModelLayerRegistry.registerModelLayer(DraupnirProjectileModel.DRAUPNIR, DraupnirProjectileModel::getTexturedModelData);
+        EntityRendererRegistry.register(ModEntities.DRAUPNIR, DraupnirProjectileRenderer::new);
     }
 
 }

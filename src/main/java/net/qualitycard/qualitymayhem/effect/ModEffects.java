@@ -19,7 +19,7 @@ public class ModEffects {
                             EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE));
 
     public static final RegistryEntry<StatusEffect> SMOULDERING = registerStatusEffect("smouldering",
-            new SmoulderingEffect(StatusEffectCategory.HARMFUL, 0xFF0000)
+            new SmoulderingEffect(StatusEffectCategory.NEUTRAL, 0xFF0000)
 
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             Identifier.of(QualityMayhem.MOD_ID, "smouldering"), -0.03f,
@@ -30,7 +30,7 @@ public class ModEffects {
                             EntityAttributeModifier.Operation.ADD_VALUE));
 
     public static final RegistryEntry<StatusEffect> BLIGHTED = registerStatusEffect("blighted",
-            new BlightedEffect(StatusEffectCategory.HARMFUL, 0xFF000)
+            new BlightedEffect(StatusEffectCategory.NEUTRAL, 0xFF000)
                     .addAttributeModifier(EntityAttributes.GENERIC_MAX_HEALTH,
                             Identifier.of(QualityMayhem.MOD_ID, "blighted"), -2f,
                             EntityAttributeModifier.Operation.ADD_VALUE)

@@ -60,6 +60,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COBALT_HORSE_ARMOR);
 
                         entries.add(ModItems.FALSE_SUN);
+                        entries.add(ModItems.DRAUPNIR);
 
                         entries.add(ModItems.HEAVEN_PIERCER);
                         entries.add(ModItems.GILDED_CLAYMORE);
@@ -69,11 +70,18 @@ public class ModItemGroups {
                         entries.add(ModItems.OCCULT_KATANA);
                         entries.add(ModItems.ETHEREAL_FLARE);
 
+                        entries.add(ModItems.CONQUERORS_MASK);
+                        entries.add(ModItems.CONQUERORS_CHESTPLATE);
+                        entries.add(ModItems.CONQUERORS_LEGGINGS);
+                        entries.add(ModItems.CONQUERORS_BOOTS);
+                        entries.add(ModItems.CONQUERORS_ALLOY);
+
                         entries.add(ModItems.ATOMIC_BLAST);
 
                         entries.add(ModItems.SCUTTER_BUG_SPAWN_EGG);
 
                         entries.add(ModItems.RICK_ROLL_MUSIC_DISC);
+
 
 
                     })

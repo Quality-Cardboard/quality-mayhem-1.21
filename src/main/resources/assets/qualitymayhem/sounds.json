@@ -17,6 +17,12 @@
       "qualitymayhem:atomic_blast_explosion"
     ]
   },
+  "parry": {
+    "subtitle": "sounds.qualitymayhem.parry",
+    "sounds": [
+      "qualitymayhem:parry"
+    ]
+  },
   "rick_roll": {
     "sounds": [
       {

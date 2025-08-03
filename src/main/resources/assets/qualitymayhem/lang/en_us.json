@@ -88,6 +88,7 @@
   "item.qualitymayhem.conquerors_leggings": "Conqueror's Leggings",
   "item.qualitymayhem.conquerors_boots": "Conqueror's Boots",
   "item.qualitymayhem.false_sun": "False Sun",
+  "item.qualitymayhem.draupnir": "Draupnir",
 
   "item.qualitymayhem.cobalt_horse_armor": "Cobalt Horse Armor",
 
@@ -140,12 +141,13 @@
   "sounds.qualitymayhem.heaven_piercer_attack": "Heaven Piercer Slices",
   "sounds.qualitymayhem.gilded_claymore_attack": "Gilded Claymore Slashes",
   "sounds.qualitymayhem.atomic_blast_explosion": "Atomic Blast Explodes",
+  "sounds.qualitymayhem.parry": "Parries",
 
   "tooltip.qualitymayhem.chisel.shift_down": "This item chisels blocks into Bricks",
   "tooltip.qualitymayhem.chisel": "Press Shift for more Info",
 
-  "death.attack.atomic_blast_explosion": "%1$s\'s atoms were ripped apart",
-  "death.attack.atomic_blast_explosion.player": "%1$s\'s atoms were ripped apart whilst fighting %2$s",
+  "death.attack.atomic_blast_explosion": "%1$s's atoms were ripped apart",
+  "death.attack.atomic_blast_explosion.player": "%1$s's atoms were ripped apart whilst fighting %2$s",
 
   "death.attack.light": "%1$s got eviscerated by light",
   "death.attack.light.player": "%1$s got eviscerated by light %2$s"
